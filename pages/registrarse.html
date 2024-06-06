@@ -30,21 +30,27 @@
             <h2 class="tituloRegistrarse">Registro de usuario nuevo</h2>
             <div>
                 <input class="barraRegistro" type="text" placeholder="Nombre" required id="nombre" name="nombre">
+                <p class="error-text"></p>  
             </div>
             <div>
                 <input class="barraRegistro" type="text" placeholder="Apellido" required id="apellido" name="apellido">
+                <p class="error-text"></p>
             </div>
             <div>
                 <input class="barraRegistro" type="email" placeholder="Email" required id="email" name="email">
+                <p class="error-text"></p>
             </div>
             <div>
                 <input class="barraRegistro" type="password" placeholder="Contraseña" required id="password" name="password">
+                <p class="error-text"></p>
             </div>
             <div>
-                <input class="barraRegistro" type="password" placeholder="Confirmar contraseña" required id="password" name="password">
+                <input class="barraRegistro" type="password" placeholder="Confirmar contraseña" required id="confirmarPassword" name="confirmarPassword">
+                <p class="error-text"></p>
             </div>
             <div>
                 <input class="barraRegistro" type="date" placeholder="Fecha de Nacimiento (dd/mm/aaaa)" required id="fechaNacimiento" name="fechaNacimiento">
+                <p class="error-text"></p>
             </div>
             <div>
                 <select class="barraRegistro" name="pais" id="pais">
@@ -61,10 +67,12 @@
                     <option value="VE">Venezuela</option>
                     <option value="OS">OTROS</option>
                 </select>
+                <p class="error-text"></p>
             </div>
             <div class="terminos" >
                 <input class="check" type="checkbox" id="terminos">
                 <label class="textoCheck" for="terminos">Acepto términos y condiciones</label>
+                <p class="error-text"></p>
             </div>
             <div>
                 <input  class="botonRegistro" type="submit" value="Registrarse">
@@ -75,7 +83,7 @@
     
     </main>
     
-
+    <script src="../js/validacionRegistro.js"></script>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
     AOS.init();

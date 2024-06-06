@@ -5,47 +5,51 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Registro | CaC_Movies_C24101_G11</title>
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css">
-    <link rel="stylesheet" href="../css/prueba.css">
+    <link rel="stylesheet" href="../css/estilo.iniciosesion.css">
     <script src="https://kit.fontawesome.com/f7fb471b65.js" crossorigin="anonymous"></script>
     <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,300&display=swap" rel="stylesheet">
     <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon">
 </head>
-<body class="bodyRegistrarse">
-    <header class="headerRegistrarse">
-        <a class="anclaLogo" href="../index.html">
-            <i class="fas fa-film" aria-hidden="true"></i>
-            <span>CAC-MOVIES-c24101-G11</span>
-        </a>
-       
+<body class="bodyInicioSesion">
+    <header class="header">
+        <nav class="navegacion">
+            <a class="anclaLogo" href="../index.html">
+                <i class="fas fa-film" aria-hidden="true"></i>
+                <span>CAC-MOVIES-c24101-G11</span>
+            </a>
+        </nav>
     </header>
     <main  id="main" class="main">
       <section  data-aos="zoom-in"  data-aos-duration="1000" class="seccionRegistrarse">
-        <form  action="" method="post">
-            <h2 class="tituloRegistrarse">Iniciar Sesión</h2>
+        <form class="formulario" action="" method="get">
+            <h2 class="tituloInicioSesion">Iniciar Sesión</h2>
          
             <div>
-                <input type="email" placeholder="Email" required id="email" name="email">
+                <input type="email" placeholder="Email" id="email" name="email">
+                <div class="error-text"></div>
             </div>
             <div>
-                <input type="password" placeholder="Contraseña" required id="password" name="password">
+                <input type="password" placeholder="Contraseña" id="password" name="password">
+                <div class="error-text"></div>
             </div>
           
           
             <div>
-                <input  class="boton" type="submit" value="Iniciar Sesión">
+                <input  class="botonInicioSesion" type="submit" value="Iniciar Sesión">
             </div>
            
-            <div > 
-               
-                <a id="ayuda" class="ayuda" href="./registrarse.html">Registrarse</a>
-            </div>
         </form>
       </section>
 
+      <h3><a href="./registrarse.html">Registrarse</a></h3>
+
     </main>
+
+    
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
     AOS.init();
     </script>
+    <script src="../js/validar.js"></script>
 </body>
 </html>

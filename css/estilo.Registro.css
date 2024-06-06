@@ -16,10 +16,6 @@
 }
 
 
-/* body{
-    background-color: #181419;
-    color:white; 
-} */
 
 .bodyRegistrarse {
     height: 100vh;
@@ -93,6 +89,26 @@
             }
         }
     }
+}
+
+.main{
+    
+        color:white;
+        height: 50vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 40vw;
+        margin-top: 30px;
+}
+
+.error-text{
+    color: rgb(11, 189, 254);
+    text-align: center;
+    font-size: 0.9em;
+    margin-top: 0px;
+    margin-bottom: 7px;
 }
 
 
