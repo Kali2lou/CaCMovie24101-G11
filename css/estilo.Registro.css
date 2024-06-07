@@ -163,6 +163,7 @@
     font-size: 2.2rem;
     font-weight: 700;
     margin-bottom: 0.3rem;
+    text-align: center;
 }
 
 .formulario{
@@ -229,5 +230,15 @@
         .main{
             margin-top: 200px;
         }
-        
+
+         /* agreglo para cambiar tamaño texto y ancho de la barra*/
+        .tituloRegistrarse{
+            font-size: 1.8rem; /* Reducir el tamaño del texto */
         }
+
+        .barraRegistro{
+            width: 280px; /* Reducir el ancho de la barra */
+        }   
+    }
+
+    

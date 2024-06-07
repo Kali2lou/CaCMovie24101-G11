@@ -2,13 +2,15 @@ CaC_Movies_C24101_G11
 
 Codo a Codo: Full Stack JAVA
 
-PRIMER TRABAJO PRÁCTICO
-
 Profesor: LOPEZ, CARLOS HORACIO
 
 Comisión: 24101
 
-Grupo 11 
+PRIMER TP:
+- HTML/CSS
+    . Responsive
 
-Deploy: 
-Repo: 
+SEGUNDO TP:
+- HTML/CSS/JS
+    . API
+    . VALIDACIONES

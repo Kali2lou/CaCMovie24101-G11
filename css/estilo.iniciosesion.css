@@ -122,7 +122,7 @@ body{
     }
 
     .botonInicioSesion{
-        background-color:#9f3683;
+        background:linear-gradient(45deg, #7462ff, #23d5ab);
         display:inline-block;
         color: #ffffff;
         height: 40px;
@@ -138,7 +138,7 @@ body{
         &:hover {
             background-color: #9f3672;
             transform: scale(0.95);
-            box-shadow: 0 0 10px rgba(240, 190, 234, 0.3);
+            box-shadow: 0 0 10px rgb(201, 2, 251);
         }
         
     }
